@@ -57,7 +57,7 @@ cover:
   showIndicators: true # 是否显示指示器. # Whether to display the indicators
   autoLoop: true # 是否自动轮播. Whether it is automatically rotated.
   duration: 120 # 切换延迟时间. Switching delay time.
-  intervalTime: 5000 # 自动切换下一张的间隔时间. Automatically switch the interval of the next one.
+  intervalTime: 20000 # 自动切换下一张的间隔时间. Automatically switch the interval of the next one.
   useConfig: false # 是否使用配置文件, 在 _data/covers.json 下配置推荐文章, false则使用主题在文章中的配置 cover coverImg
   # useConfig 使用方式: 将主题 hexo-theme-matery/source/_data/covers.json 移动到 my-blog/source/_data/下修改配置即可
   video:
@@ -73,8 +73,9 @@ cover:
 dream:
   enable: true
   showTitle: true
-  title: 我的梦想
-  text: 不是每个人都应该像我这样去建造一座水晶大教堂，但是每个人都应该拥有自己的梦想，设计自己的梦想，追求自己的梦想，实现自己的梦想。梦想是生命的灵魂，是心灵的灯塔，是引导人走向成功的信仰。有了崇高的梦想，只要矢志不渝地追求，梦想就会成为现实，奋斗就会变成壮举，生命就会创造奇迹。——罗伯·舒乐
+  title: 伟大一族
+  text: 但在年轻时，我们有过很宏伟的梦想。伟大一族不是空想家，不是只会从众起哄的狂热分子，更不是连事情还没弄清就热血沸腾的青年。他们相信，任何美好的梦想都有可能成真——换言之，不能成真的梦想本身就是不美好的。假如事情没做成，那是做得不得法；假如做成了，却不美好，倒像是一场噩梦，那是因为从开始就想得不对头。不管结局是怎样，这条路总是存在的——必须准备梦想，准备为梦想工作。
+  # text: 不是每个人都应该像我这样去建造一座水晶大教堂，但是每个人都应该拥有自己的梦想，设计自己的梦想，追求自己的梦想，实现自己的梦想。梦想是生命的灵魂，是心灵的灯塔，是引导人走向成功的信仰。有了崇高的梦想，只要矢志不渝地追求，梦想就会成为现实，奋斗就会变成壮举，生命就会创造奇迹。——罗伯·舒乐
 
 # Whether to display the musics.
 # 是否在首页显示音乐.
@@ -226,7 +227,7 @@ postInfo:
 # Whether to activate the 'love' effect of clicking on the page.
 # 是否激活点击页面的'爱心'效果，默认激活.
 clicklove:
-  enable: false
+  enable: true
 
 # | 文件名             | 说明                   |
 # | :----------------- | :--------------------- |
@@ -408,7 +409,7 @@ changyan:
 # 配置是否在 header 中显示 fork me on github 的图标，默认为true，你可以修改为你的仓库地址.
 githubLink:
   enable: false
-  url: https://github.com/blinkfox/hexo-theme-matery
+  url: https://github.com/ZhenweiCao/hexo-theme-matery.git
   title: Fork Me
 
 # The configuration of the Twikoo comment module is not activated by default.
@@ -624,13 +625,14 @@ addthis:
 # 如果有符号 ‘ ，请在 ’ 前面加上 \
 subtitle:
   enable: false
-  loop: false # 是否循环
+  loop: true # 是否循环
   showCursor: false # 是否显示光标
-  startDelay: 300 # 开始延迟
-  typeSpeed: 100 # 打字速度
-  backSpeed: 50 # 删除速度
+  startDelay: 3000 # 开始延迟
+  typeSpeed: 50 # 打字速度
+  backSpeed: 30 # 删除速度
   sub:
-    - 从来没有真正的绝境, 只有心灵的迷途
+    - Get busy living, or get busy dying.
+    - Where there is a will, there is a way.
     # - Never really desperate, only the lost of the soul
 
 # 手机二级菜单.
